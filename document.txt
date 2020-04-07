@@ -1,7 +1,7 @@
 springboot自动化配置 创建自定义错误页面
 1. 可在放置静态文件的文件夹下(META-INF/resources,resources,static,public)添加error文件夹,在此文件夹下创建页面
     可以使具体的400.html,403.html等也可以是4xx.html或者5xx.html模糊匹配的页面(因为springboot自动化配置中模糊匹配的只有4xx和5xx)
-2. 可以在templates文件夹下创建error文件夹,在此文件夹下使用动态页面(使用thymemlate模板),当然也可以是400.html,403.html具体的错误码页面,
+2. 可以在templates文件夹下创建error文件夹,在此文件夹下使用动态页面(使用thymeleaf模板),当然也可以是400.html,403.html具体的错误码页面,
     也可以是4xx.html,5xx.html模糊匹配页面
 
     发生错误异常跳转页面规则: 先具体->模糊->动态->静态
